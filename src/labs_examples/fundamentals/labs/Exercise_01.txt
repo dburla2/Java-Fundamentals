@@ -2,21 +2,39 @@ Fundamentals Exercise 1: CLI
      Perform the following tasks using the CLI and copy and paste the commands and results below
 
      1. Navigate to CodingNomads folder (or the space you have create for this project)
+      cd ~/Desktop/Java-CodingNomads
+
      2. Create new folder Terminal_testing
+     mkdir Terminal_testing
      3. Inside of folder Terminal_testing,
          a. create 3 new .txt files all with different names
+         touch text1.txt text2.txt text3.txt
          b. print the directory path
+         pwd
          c. list the contents of the folder
+         ls -al
      5. Inside of folder Terminal_testing, create a new folder
+     mkdir Terminal_testing/new_folder
      6. Copy a file from Terminal_testing to the new folder
+     cp text1.txt Terminal_testing/
      7. Move a different file from Terminal_testing to the new folder
+     mv text2.txt Terminal_testing/
      8. Demonstrate removing:
          a. A file
+         rm text3.txt
          b. A folder
+         rm -rf Terminal_testing/
      9. CHALLENGE:
          a. Use $ vim to write some text inside a file
+         vim some_text.txt
+         press i to include
+         type text
+         esc
+         :wq to save and quit
          b. Use $ cat print contents of file
+         cat some_text.txt
          c. Use $ grep to search for a word inside file
+         grep 'test' some_text.txt
 
 Example Output (pwd):
     1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
