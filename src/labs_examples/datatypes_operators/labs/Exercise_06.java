@@ -13,6 +13,7 @@ public class Exercise_06 {
     public static void main(String[] args) {
 
         // write code here
-
+        double volume = (3.14 * 3.14) * 3.14 * 5;
+        System.out.println("Volume of cylinder is: " + volume);
     }
 }

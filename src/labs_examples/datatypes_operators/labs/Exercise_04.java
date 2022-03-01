@@ -18,6 +18,21 @@ class RelationalOperators {
         }
 
         // write your code below
+        if (a > b){
+            System.out.println("a is greaater than b");
+        }
+
+        if (a >= b){
+            System.out.println("a is greaater thanor equal to b");
+        }
+
+        if (a <= b){
+            System.out.println("a is less than or equal to b");
+        }
+
+        if (a == b){
+            System.out.println("a is equal to b");
+        }
 
     }
 

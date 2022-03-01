@@ -17,6 +17,30 @@ class LogicalOperators {
             System.out.println("a or b is true");
         }
 
+        if (a & b){
+            System.out.println("a and b is false");
+        }
+
+        if (a && b){
+            System.out.println("a short circuit AND b is false");
+        }
+
+        if (a || b){
+            System.out.println("a short circuit OR b is true");
+        }
+
+        if (a ^ b){
+            System.out.println("a XOR b is true");
+        }
+
+        if (!b){
+            System.out.println("!b is true");
+        }
+
+
+
+
+
         // write your code below
 
     }
